@@ -89,9 +89,15 @@ export function Navigation() {
 
           <div className='flex items-center gap-3'>
             <LanguageSelector />
-            <Button className='gradient-primary text-primary-foreground hover:opacity-90 font-bold shadow-lg shadow-primary/25 transition-all hover:shadow-xl hover:shadow-primary/30 hover:scale-105 cursor-pointer'>
-              {t.nav.buy}
-            </Button>
+            <Link
+              href='https://pump.fun/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Button className='gradient-primary text-primary-foreground hover:opacity-90 font-bold shadow-lg shadow-primary/25 transition-all hover:shadow-xl hover:shadow-primary/30 hover:scale-105 cursor-pointer'>
+                {t.nav.buy}
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

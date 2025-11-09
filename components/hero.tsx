@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/language-context";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 export function Hero() {
   const { t } = useLanguage();
@@ -112,19 +113,32 @@ export function Hero() {
               transition={{ delay: 0.6 }}
               className='flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4'
             >
-              <Button
-                size='lg'
-                className='gradient-primary text-white hover:opacity-90 font-bold text-lg px-10 py-7 shadow-2xl shadow-primary/30 transition-all hover:shadow-primary/40 hover:scale-105 cursor-pointer'
+              <Link
+                href='https://pump.fun/'
+                target='_blank'
+                rel='noopener noreferrer'
               >
-                {t.hero.buyButton}
-              </Button>
-              <Button
-                size='lg'
-                variant='outline'
-                className='border-2 border-primary/50 text-foreground hover:bg-primary/10 hover:text-foreground font-bold text-lg px-10 py-7 hover:border-primary transition-all hover:scale-105 bg-transparent cursor-pointer'
+                <Button
+                  size='lg'
+                  className='gradient-primary text-white hover:opacity-90 font-bold text-lg px-10 py-7 shadow-2xl shadow-primary/30 transition-all hover:shadow-primary/40 hover:scale-105 cursor-pointer'
+                >
+                  {t.hero.buyButton}
+                </Button>
+              </Link>
+
+              <Link
+                href='https://x.com/CoinDam61637'
+                target='_blank'
+                rel='noopener noreferrer'
               >
-                {t.hero.joinButton}
-              </Button>
+                <Button
+                  size='lg'
+                  variant='outline'
+                  className='border-2 border-primary/50 text-foreground hover:bg-primary/10 hover:text-foreground font-bold text-lg px-10 py-7 hover:border-primary transition-all hover:scale-105 bg-transparent cursor-pointer'
+                >
+                  {t.hero.joinButton}
+                </Button>
+              </Link>
             </motion.div>
 
             <motion.div

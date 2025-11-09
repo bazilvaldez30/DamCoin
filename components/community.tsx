@@ -26,7 +26,7 @@ export function Community() {
       name: "Twitter/X",
       icon: "𝕏",
       color: "hover:border-primary hover:shadow-primary/20",
-      link: "#",
+      link: "https://x.com/CoinDam61637",
     },
     {
       name: "Telegram",
@@ -141,12 +141,18 @@ export function Community() {
                 Work smart. Dam hard. Build the future.
               </p>
               <div className='flex flex-col sm:flex-row gap-5 justify-center'>
-                <Button
-                  size='lg'
-                  className='gradient-primary text-white hover:opacity-90 font-bold text-lg px-14 py-7 shadow-2xl shadow-primary/30 transition-all hover:shadow-primary/40 hover:scale-105 cursor-pointer'
+                <Link
+                  href='https://pump.fun/'
+                  target='_blank'
+                  rel='noopener noreferrer'
                 >
-                  BUY $DAM
-                </Button>
+                  <Button
+                    size='lg'
+                    className='gradient-primary text-white hover:opacity-90 font-bold text-lg px-14 py-7 shadow-2xl shadow-primary/30 transition-all hover:shadow-primary/40 hover:scale-105 cursor-pointer'
+                  >
+                    BUY $DAM
+                  </Button>
+                </Link>
                 {/* <Button
                   size="lg"
                   variant="outline"
@@ -254,7 +260,7 @@ export function Community() {
                 </li>
                 <li>
                   <a
-                    href='#'
+                    href='https://pump.fun/'
                     className='text-muted-foreground hover:text-primary transition-colors'
                   >
                     Buy $DAM
@@ -297,7 +303,7 @@ export function Community() {
                   <span className='text-primary'>✈️</span>
                 </button>
                 <a
-                  href='#'
+                  href='https://x.com/CoinDam61637'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='w-10 h-10 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center hover:bg-primary/20 transition-colors cursor-pointer'
