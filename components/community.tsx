@@ -67,9 +67,9 @@ export function Community() {
           src='/beaver-team-collaboration.png'
           alt='Beaver Team Collaboration'
           fill
-          className='object-cover opacity-30'
+          className='object-cover opacity-60'
         />
-        <div className='absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-background/95' />
+        <div className='absolute inset-0 bg-gradient-to-b from-background/98 via-background/90 to-background/85' />
       </div>
 
       <div className='container mx-auto px-4 relative'>
@@ -142,7 +142,7 @@ export function Community() {
               </p>
               <div className='flex flex-col sm:flex-row gap-5 justify-center'>
                 <Link
-                  href='https://pump.fun/'
+                  href='https://pump.fun/coin/4GvJERkrSP3vgSsJFN79E2Lg8KAUvgdUoPViDZwGpump'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -260,7 +260,7 @@ export function Community() {
                 </li>
                 <li>
                   <a
-                    href='https://pump.fun/'
+                    href='https://pump.fun/coin/4GvJERkrSP3vgSsJFN79E2Lg8KAUvgdUoPViDZwGpump'
                     className='text-muted-foreground hover:text-primary transition-colors'
                   >
                     Buy $DAM

@@ -114,7 +114,7 @@ export function Hero() {
               className='flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4'
             >
               <Link
-                href='https://pump.fun/'
+                href='https://pump.fun/coin/4GvJERkrSP3vgSsJFN79E2Lg8KAUvgdUoPViDZwGpump'
                 target='_blank'
                 rel='noopener noreferrer'
               >
