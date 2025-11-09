@@ -8,6 +8,8 @@ import { CheckCircle2, Circle } from "lucide-react"
 export function Roadmap() {
   const { t } = useLanguage()
 
+  const incompleteItems = ["Community Building", "Meme Creation & Viral Content", "Establish Core Community"]
+
   const phases = [
     {
       icon: "🪙",
@@ -89,7 +91,7 @@ export function Roadmap() {
                       transition={{ duration: 0.4, delay: itemIndex * 0.1 }}
                       className="flex items-start gap-3"
                     >
-                      {phases[index].status === "current" ? (
+                      {phases[index].status === "current" && !incompleteItems.includes(item) ? (
                         <CheckCircle2 className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                       ) : (
                         <Circle className="w-5 h-5 text-muted-foreground mt-0.5 flex-shrink-0" />

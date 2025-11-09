@@ -73,7 +73,17 @@ export function Features() {
               className="relative w-full max-w-md mx-auto"
             >
               <div className="relative">
-                <div className="absolute inset-0 bg-primary/20 blur-3xl rounded-full animate-pulse" />
+                <motion.div
+                  animate={{
+                    y: [0, -10, 0],
+                  }}
+                  transition={{
+                    duration: 4,
+                    repeat: Number.POSITIVE_INFINITY,
+                    ease: "easeInOut",
+                  }}
+                  className="absolute inset-0 bg-primary/20 blur-3xl rounded-full animate-pulse"
+                />
                 <Image
                   src="/beaver.png"
                   alt="AI Automation"

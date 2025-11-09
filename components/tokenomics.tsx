@@ -14,13 +14,6 @@ export function Tokenomics() {
     { label: "Platform", value: "Pump.fun" },
   ]
 
-  const supplyInfo = [
-    { label: "Total Supply", value: "1,000,000,000", highlight: true },
-    { label: "Initial Liquidity", value: "1B (100%)" },
-    { label: "Bonding Curve", value: "Active" },
-    { label: "Contract", value: "Immutable" },
-  ]
-
   const distribution = [
     { label: "Bonding Curve / Liquidity", percentage: "100%", amount: "1B", color: "from-cyan-500 to-blue-500" },
   ]
@@ -55,15 +48,15 @@ export function Tokenomics() {
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">{t.tokenomics.subtitle}</p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-8 mb-16">
+        <div className="max-w-2xl mx-auto mb-16">
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <Card className="p-10 glass-strong hover:shadow-2xl hover:shadow-primary/10 transition-all h-full">
-              <h3 className="text-3xl font-bold mb-8 flex items-center gap-3">
+            <Card className="p-10 glass-strong hover:shadow-2xl hover:shadow-primary/10 transition-all">
+              <h3 className="text-3xl font-bold mb-8 flex items-center gap-3 justify-center">
                 <motion.span
                   animate={{ rotate: [0, 360] }}
                   transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
@@ -85,42 +78,6 @@ export function Tokenomics() {
                   >
                     <span className="text-muted-foreground text-lg">{item.label}</span>
                     <span className="font-bold text-xl bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                      {item.value}
-                    </span>
-                  </motion.div>
-                ))}
-              </div>
-            </Card>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <Card className="p-10 glass-strong hover:shadow-2xl hover:shadow-primary/10 transition-all h-full">
-              <h3 className="text-3xl font-bold mb-8 flex items-center gap-3">
-                <span className="text-4xl">📊</span> Supply Details
-              </h3>
-              <div className="space-y-5">
-                {supplyInfo.map((item, index) => (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, x: -20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.4, delay: index * 0.1 }}
-                    className="flex justify-between items-center py-4 border-b border-border/50 last:border-0"
-                  >
-                    <span className="text-muted-foreground text-lg">{item.label}</span>
-                    <span
-                      className={`font-bold text-xl ${
-                        item.highlight
-                          ? "bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent text-2xl"
-                          : "text-foreground"
-                      }`}
-                    >
                       {item.value}
                     </span>
                   </motion.div>
