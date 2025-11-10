@@ -1,4 +1,13 @@
-export type Language = "EN" | "TR" | "PT" | "ES" | "FR" | "RU" | "UA" | "JP" | "CN"
+export type Language =
+  | "EN"
+  | "TR"
+  | "PT"
+  | "ES"
+  | "FR"
+  | "RU"
+  | "UA"
+  | "JP"
+  | "CN";
 
 export const translations = {
   EN: {
@@ -34,15 +43,18 @@ export const translations = {
       features: [
         {
           title: "AI-Powered",
-          description: "Leveraging advanced AI to automate and optimize your workflow",
+          description:
+            "Leveraging advanced AI to automate and optimize your workflow",
         },
         {
           title: "Community-Driven",
-          description: "Built by the community, for the community. Every holder is a builder.",
+          description:
+            "Built by the community, for the community. Every holder is a builder.",
         },
         {
           title: "Meme Magic",
-          description: "Combining viral meme culture with serious blockchain technology",
+          description:
+            "Combining viral meme culture with serious blockchain technology",
         },
       ],
     },
@@ -108,19 +120,23 @@ export const translations = {
       items: [
         {
           title: "Lightning Fast",
-          description: "Built on Solana for instant transactions and minimal fees",
+          description:
+            "Built on Solana for instant transactions and minimal fees",
         },
         {
           title: "Community Owned",
-          description: "100% fair launch on pump.fun. No presale, no team tokens.",
+          description:
+            "100% fair launch on pump.fun. No presale, no team tokens.",
         },
         {
           title: "Meme Culture",
-          description: "Celebrating builders and beavers with top-tier memes and community vibes",
+          description:
+            "Celebrating builders and beavers with top-tier memes and community vibes",
         },
         {
           title: "Transparent",
-          description: "What you see is what you get. Pure memecoin, pure community.",
+          description:
+            "What you see is what you get. Pure memecoin, pure community.",
         },
       ],
     },
@@ -154,6 +170,12 @@ export const translations = {
           answer:
             "NO! $DAM is NOT an investment, security, or financial product. $DAM is a community-driven meme token with no financial guarantees, promises, or expectations of returns. This is purely for entertainment and community participation. Expect to lose everything you put in.",
         },
+        {
+          question: "What happens to creator rewards from Pump.fun?",
+          answer:
+            "Creator rewards generated from Pump.fun will be reinvested into the DamCoin ecosystem. These funds will support ongoing development of automation tools, community features, marketing initiatives, and platform improvements to benefit all community members.",
+        },
+        // </CHANGE>
         {
           question: "What is the total supply of $DAM?", // Updated from $BEAVR to $DAM
           answer:
@@ -228,15 +250,18 @@ export const translations = {
       features: [
         {
           title: "AI Destekli",
-          description: "İş akışınızı otomatikleştirmek ve optimize etmek için gelişmiş AI kullanımı",
+          description:
+            "İş akışınızı otomatikleştirmek ve optimize etmek için gelişmiş AI kullanımı",
         },
         {
           title: "Topluluk Odaklı",
-          description: "Topluluk tarafından, topluluk için inşa edildi. Her sahip bir inşaatçıdır.",
+          description:
+            "Topluluk tarafından, topluluk için inşa edildi. Her sahip bir inşaatçıdır.",
         },
         {
           title: "Meme Büyüsü",
-          description: "Viral meme kültürünü ciddi blockchain teknolojisiyle birleştirme",
+          description:
+            "Viral meme kültürünü ciddi blockchain teknolojisiyle birleştirme",
         },
       ],
     },
@@ -302,15 +327,18 @@ export const translations = {
       items: [
         {
           title: "Şimşek Hızı",
-          description: "Anında işlemler ve minimum ücretler için Solana üzerine inşa edildi",
+          description:
+            "Anında işlemler ve minimum ücretler için Solana üzerine inşa edildi",
         },
         {
           title: "Topluluk Sahipliği",
-          description: "Pump.fun'da %100 adil lansman. Ön satış yok, takım tokeni yok.",
+          description:
+            "Pump.fun'da %100 adil lansman. Ön satış yok, takım tokeni yok.",
         },
         {
           title: "Meme Kültürü",
-          description: "İnşaatçıları ve kunduzları üst düzey memler ve topluluk atmosferiyle kutluyoruz",
+          description:
+            "İnşaatçıları ve kunduzları üst düzey memler ve topluluk atmosferiyle kutluyoruz",
         },
         {
           title: "Şeffaf",
@@ -348,6 +376,12 @@ export const translations = {
           answer:
             "NO! $DAM is NOT an investment, security, or financial product. $DAM is a community-driven meme token with no financial guarantees, promises, or expectations of returns. This is purely for entertainment and community participation. Expect to lose everything you put in.",
         },
+        {
+          question: "What happens to creator rewards from Pump.fun?",
+          answer:
+            "Creator rewards generated from Pump.fun will be reinvested into the DamCoin ecosystem. These funds will support ongoing development of automation tools, community features, marketing initiatives, and platform improvements to benefit all community members.",
+        },
+        // </CHANGE>
         {
           question: "What is the total supply of $DAM?", // Updated from $BEAVR to $DAM
           answer:
@@ -422,15 +456,18 @@ export const translations = {
       features: [
         {
           title: "Alimentado por IA",
-          description: "Aproveitando IA avançada para automatizar e otimizar seu fluxo de trabalho",
+          description:
+            "Aproveitando IA avançada para automatizar e otimizar seu fluxo de trabalho",
         },
         {
           title: "Orientado pela Comunidade",
-          description: "Construído pela comunidade, para a comunidade. Cada detentor é um construtor.",
+          description:
+            "Construído pela comunidade, para a comunidade. Cada detentor é um construtor.",
         },
         {
           title: "Magia Meme",
-          description: "Combinando cultura meme viral com tecnologia blockchain séria",
+          description:
+            "Combinando cultura meme viral com tecnologia blockchain séria",
         },
       ],
     },
@@ -496,19 +533,23 @@ export const translations = {
       items: [
         {
           title: "Rápido como Relâmpago",
-          description: "Construído na Solana para transações instantâneas e taxas mínimas",
+          description:
+            "Construído na Solana para transações instantâneas e taxas mínimas",
         },
         {
           title: "Propriedade da Comunidade",
-          description: "Lançamento justo de 100% no pump.fun. Sem pré-venda, sem tokens da equipe.",
+          description:
+            "Lançamento justo de 100% no pump.fun. Sem pré-venda, sem tokens da equipe.",
         },
         {
           title: "Cultura Meme",
-          description: "Celebrando construtores e castores com memes de primeira linha e vibrações comunitárias",
+          description:
+            "Celebrando construtores e castores com memes de primeira linha e vibrações comunitárias",
         },
         {
           title: "Transparente",
-          description: "O que você vê é o que você obtém. Puro memecoin, pura comunidade.",
+          description:
+            "O que você vê é o que você obtém. Puro memecoin, pura comunidade.",
         },
       ],
     },
@@ -543,6 +584,12 @@ export const translations = {
             "NÃO! $DAM NÃO é um investimento, título ou produto financeiro. $DAM é um token meme orientado pela comunidade sem garantias financeiras, promessas ou expectativas de retornos. Isso é puramente para entretenimento e participação da comunidade. Espere perder tudo o que colocar.",
         },
         {
+          question: "What happens to creator rewards from Pump.fun?",
+          answer:
+            "Creator rewards generated from Pump.fun will be reinvested into the DamCoin ecosystem. These funds will support ongoing development of automation tools, community features, marketing initiatives, and platform improvements to benefit all community members.",
+        },
+        // </CHANGE>
+        {
           question: "Qual é o fornecimento total de $DAM?", // Updated from $BEAVR to $DAM
           answer:
             "O fornecimento total e detalhes de tokenomics estão disponíveis na seção Tokenomics acima. Mantemos total transparência sobre a distribuição de tokens.",
@@ -572,7 +619,8 @@ export const translations = {
     securityWarning: {
       title: "Aviso de Segurança",
       subtitle: "Fique Seguro em Cripto",
-      description: "Confie apenas em anúncios e links de nossas contas oficiais. Proteja-se de golpes e impostores.",
+      description:
+        "Confie apenas em anúncios e links de nossas contas oficiais. Proteja-se de golpes e impostores.",
       warningTitle: "Cuidado com Golpistas!",
       warningDescription:
         "As pessoas podem tentar se passar por DamCoin com contas falsas, sites ou tokens. Sempre verifique através de nossos canais oficiais abaixo.", // Updated from BeaverAI to DamCoin
@@ -615,15 +663,18 @@ export const translations = {
       features: [
         {
           title: "Impulsado por IA",
-          description: "Aprovechando IA avanzada para automatizar y optimizar tu flujo de trabajo",
+          description:
+            "Aprovechando IA avanzada para automatizar y optimizar tu flujo de trabajo",
         },
         {
           title: "Impulsado por la Comunidad",
-          description: "Construido por la comunidad, para la comunidad. Cada titular es un constructor.",
+          description:
+            "Construido por la comunidad, para la comunidad. Cada titular es un constructor.",
         },
         {
           title: "Magia Meme",
-          description: "Combinando cultura meme viral con tecnología blockchain seria",
+          description:
+            "Combinando cultura meme viral con tecnología blockchain seria",
         },
       ],
     },
@@ -689,19 +740,23 @@ export const translations = {
       items: [
         {
           title: "Rápido como un Rayo",
-          description: "Construido en Solana para transacciones instantáneas y tarifas mínimas",
+          description:
+            "Construido en Solana para transacciones instantáneas y tarifas mínimas",
         },
         {
           title: "Propiedad Comunitaria",
-          description: "Lanzamiento justo 100% en pump.fun. Sin preventa, sin tokens del equipo.",
+          description:
+            "Lanzamiento justo 100% en pump.fun. Sin preventa, sin tokens del equipo.",
         },
         {
           title: "Cultura Meme",
-          description: "Celebrando constructores y castores con memes de primer nivel y ambiente comunitario",
+          description:
+            "Celebrando constructores y castores con memes de primer nivel y ambiente comunitario",
         },
         {
           title: "Transparente",
-          description: "Lo que ves es lo que obtienes. Puro memecoin, pura comunidad.",
+          description:
+            "Lo que ves es lo que obtienes. Puro memecoin, pura comunidad.",
         },
       ],
     },
@@ -735,6 +790,12 @@ export const translations = {
           answer:
             "¡NO! $DAM NO es una inversión, valor o producto financiero. $DAM es un token meme impulsado por la comunidad sin garantías financieras, promesas o expectativas de retornos. Esto es puramente para entretenimiento y participación comunitaria. Espera perder todo lo que inviertas.",
         },
+        {
+          question: "What happens to creator rewards from Pump.fun?",
+          answer:
+            "Creator rewards generated from Pump.fun will be reinvested into the DamCoin ecosystem. These funds will support ongoing development of automation tools, community features, marketing initiatives, and platform improvements to benefit all community members.",
+        },
+        // </CHANGE>
         {
           question: "¿Cuál es el suministro total de $DAM?", // Updated from $BEAVR to $DAM
           answer:
@@ -809,15 +870,18 @@ export const translations = {
       features: [
         {
           title: "Alimenté par l'IA",
-          description: "Exploitant l'IA avancée pour automatiser et optimiser votre flux de travail",
+          description:
+            "Exploitant l'IA avancée pour automatiser et optimiser votre flux de travail",
         },
         {
           title: "Piloté par la Communauté",
-          description: "Construit par la communauté, pour la communauté. Chaque détenteur est un constructeur.",
+          description:
+            "Construit par la communauté, pour la communauté. Chaque détenteur est un constructeur.",
         },
         {
           title: "Magie Meme",
-          description: "Combinant la culture meme virale avec la technologie blockchain sérieuse",
+          description:
+            "Combinant la culture meme virale avec la technologie blockchain sérieuse",
         },
       ],
     },
@@ -883,11 +947,13 @@ export const translations = {
       items: [
         {
           title: "Rapide comme l'Éclair",
-          description: "Construit sur Solana pour des transactions instantanées et des frais minimaux",
+          description:
+            "Construit sur Solana pour des transactions instantanées et des frais minimaux",
         },
         {
           title: "Propriété Communautaire",
-          description: "Lancement 100% équitable sur pump.fun. Pas de prévente, pas de tokens d'équipe.",
+          description:
+            "Lancement 100% équitable sur pump.fun. Pas de prévente, pas de tokens d'équipe.",
         },
         {
           title: "Culture Meme",
@@ -896,7 +962,8 @@ export const translations = {
         },
         {
           title: "Transparent",
-          description: "Ce que vous voyez est ce que vous obtenez. Memecoin pur, communauté pure.",
+          description:
+            "Ce que vous voyez est ce que vous obtenez. Memecoin pur, communauté pure.",
         },
       ],
     },
@@ -931,6 +998,12 @@ export const translations = {
             "NON! $DAM N'est PAS un investissement, une sécurité ou un produit financier. $DAM est un token meme piloté par la communauté sans garanties financières, promesses ou attentes de rendements. Ceci est purement pour le divertissement et la participation communautaire. Attendez-vous à perdre tout ce que vous investissez.",
         },
         {
+          question: "What happens to creator rewards from Pump.fun?",
+          answer:
+            "Creator rewards generated from Pump.fun will be reinvested into the DamCoin ecosystem. These funds will support ongoing development of automation tools, community features, marketing initiatives, and platform improvements to benefit all community members.",
+        },
+        // </CHANGE>
+        {
           question: "Quelle est l'offre totale de $DAM?", // Updated from $BEAVR to $DAM
           answer:
             "L'offre totale et les détails de tokenomics sont disponibles dans la section Tokenomics ci-dessus. Nous maintenons une transparence totale sur la distribution des tokens.",
@@ -955,7 +1028,7 @@ export const translations = {
     disclaimer: {
       title: "Avertissement Important",
       content:
-        "$DAM est un token meme créé uniquement à des fins de divertissement. Ceci N'est PAS un conseil financier, et $DAM N'est PAS un investissement, une sécurité ou un produit financier. Les investissements en cryptomonnaies comportent un risque important, et vous ne devriez jamais investir plus que ce que vous pouvez vous permettre de perdre. La valeur de $DAM peut fluctuer considérablement et pourrait devenir sans valeur. En achetant $DAM, vous reconnaissez que vous le faites à vos propres risques et que les créateurs, développeurs et membres de l'équipe ne sont pas responsables des pertes financières que vous pourriez subir. Faites toujours vos propres recherches (DYOR) et consultez un conseiller financier avant de prendre toute décision d'investissement. Les performances passées ne garantissent pas les résultats futurs.", // Updated all $BEAVR references to $DAM
+        "$DAM est un token meme créé uniquement à des fins de divertissement. Ceci N'est PAS un conseil financier, et $DAM N'EST PAS un investissement, une sécurité ou un produit financier. Les investissements en cryptomonnaies comportent un risque important, et vous ne devriez jamais investir plus que ce que vous pouvez vous permettre de perdre. La valeur de $DAM peut fluctuer considérablement et pourrait devenir sans valeur. En achetant $DAM, vous reconnaissez que vous le faites à vos propres risques et que les créateurs, développeurs et membres de l'équipe ne sont pas responsables des pertes financières que vous pourriez subir. Faites toujours vos propres recherches (DYOR) et consultez un conseiller financier avant de prendre toute décision d'investissement. Les performances passées ne garantissent pas les résultats futurs.", // Updated all $BEAVR references to $DAM
     },
     securityWarning: {
       title: "Avertissement de Sécurité",
@@ -1004,15 +1077,18 @@ export const translations = {
       features: [
         {
           title: "На базе ИИ",
-          description: "Использование передового ИИ для автоматизации и оптимизации вашего рабочего процесса",
+          description:
+            "Использование передового ИИ для автоматизации и оптимизации вашего рабочего процесса",
         },
         {
           title: "Управляемый Сообществом",
-          description: "Создан сообществом, для сообщества. Каждый держатель - строитель.",
+          description:
+            "Создан сообществом, для сообщества. Каждый держатель - строитель.",
         },
         {
           title: "Мем Магия",
-          description: "Сочетание вирусной мем-культуры с серьезной блокчейн-технологией",
+          description:
+            "Сочетание вирусной мем-культуры с серьезной блокчейн-технологией",
         },
       ],
     },
@@ -1078,19 +1154,23 @@ export const translations = {
       items: [
         {
           title: "Молниеносно Быстрый",
-          description: "Построен на Solana для мгновенных транзакций и минимальных комиссий",
+          description:
+            "Построен на Solana для мгновенных транзакций и минимальных комиссий",
         },
         {
           title: "Собственность Сообщества",
-          description: "100% честный запуск на pump.fun. Без предпродажи, без токенов команды.",
+          description:
+            "100% честный запуск на pump.fun. Без предпродажи, без токенов команды.",
         },
         {
           title: "Культура Мемов",
-          description: "Празднуем строителей и бобров с первоклассными мемами и атмосферой сообщества",
+          description:
+            "Празднуем строителей и бобров с первоклассными мемами и атмосферой сообщества",
         },
         {
           title: "Прозрачный",
-          description: "Что вы видите, то и получаете. Чистый мемкоин, чистое сообщество.",
+          description:
+            "Что вы видите, то и получаете. Чистый мемкоин, чистое сообщество.",
         },
       ],
     },
@@ -1124,6 +1204,12 @@ export const translations = {
           answer:
             "NO! $DAM is NOT an investment, security, or financial product. $DAM is a community-driven meme token with no financial guarantees, promises, or expectations of returns. This is purely for entertainment and community participation. Expect to lose everything you put in.",
         },
+        {
+          question: "What happens to creator rewards from Pump.fun?",
+          answer:
+            "Creator rewards generated from Pump.fun will be reinvested into the DamCoin ecosystem. These funds will support ongoing development of automation tools, community features, marketing initiatives, and platform improvements to benefit all community members.",
+        },
+        // </CHANGE>
         {
           question: "What is the total supply of $DAM?", // Updated from $BEAVR to $DAM
           answer:
@@ -1198,15 +1284,18 @@ export const translations = {
       features: [
         {
           title: "На базі ШІ",
-          description: "Використання передового ШІ для автоматизації та оптимізації вашого робочого процесу",
+          description:
+            "Використання передового ШІ для автоматизації та оптимізації вашого робочого процесу",
         },
         {
           title: "Керований Спільнотою",
-          description: "Створений спільнотою, для спільноти. Кожен власник - будівельник.",
+          description:
+            "Створений спільнотою, для спільноти. Кожен власник - будівельник.",
         },
         {
           title: "Мем Магія",
-          description: "Поєднання вірусної мем-культури з серйозною блокчейн-технологією",
+          description:
+            "Поєднання вірусної мем-культури з серйозною блокчейн-технологією",
         },
       ],
     },
@@ -1272,19 +1361,23 @@ export const translations = {
       items: [
         {
           title: "Блискавично Швидкий",
-          description: "Побудований на Solana для миттєвих транзакцій та мінімальних комісій",
+          description:
+            "Побудований на Solana для миттєвих транзакцій та мінімальних комісій",
         },
         {
           title: "Власність Спільноти",
-          description: "100% справедливий запуск на pump.fun. Без попереднього продажу, без токенів команди.",
+          description:
+            "100% справедливий запуск на pump.fun. Без попереднього продажу, без токенів команди.",
         },
         {
           title: "Культура Мемів",
-          description: "Святкуємо будівельників та бобрів з топовими мемами та спільнотним вайбом",
+          description:
+            "Святкуємо будівельників та бобрів з топовими мемами та спільнотним вайбом",
         },
         {
           title: "Прозорий",
-          description: "Що ви бачите, те й отримуєте. Чистий мемкоїн, чиста спільнота.",
+          description:
+            "Що ви бачите, те й отримуєте. Чистий мемкоїн, чиста спільнота.",
         },
       ],
     },
@@ -1318,6 +1411,12 @@ export const translations = {
           answer:
             "NO! $DAM is NOT an investment, security, or financial product. $DAM is a community-driven meme token with no financial guarantees, promises, or expectations of returns. This is purely for entertainment and community participation. Expect to lose everything you put in.",
         },
+        {
+          question: "What happens to creator rewards from Pump.fun?",
+          answer:
+            "Creator rewards generated from Pump.fun will be reinvested into the DamCoin ecosystem. These funds will support ongoing development of automation tools, community features, marketing initiatives, and platform improvements to benefit all community members.",
+        },
+        // </CHANGE>
         {
           question: "What is the total supply of $DAM?", // Updated from $BEAVR to $DAM
           answer:
@@ -1396,11 +1495,13 @@ export const translations = {
         },
         {
           title: "コミュニティ主導",
-          description: "コミュニティによって、コミュニティのために構築。すべての保有者がビルダーです。",
+          description:
+            "コミュニティによって、コミュニティのために構築。すべての保有者がビルダーです。",
         },
         {
           title: "ミームマジック",
-          description: "バイラルなミーム文化と本格的なブロックチェーン技術の組み合わせ",
+          description:
+            "バイラルなミーム文化と本格的なブロックチェーン技術の組み合わせ",
         },
       ],
     },
@@ -1470,15 +1571,18 @@ export const translations = {
         },
         {
           title: "コミュニティ所有",
-          description: "Pump.funで100%フェアローンチ。プレセールなし、チームトークンなし。",
+          description:
+            "Pump.funで100%フェアローンチ。プレセールなし、チームトークンなし。",
         },
         {
           title: "ミーム文化",
-          description: "ビルダーとビーバーを、一流のミームとコミュニティの雰囲気で祝う",
+          description:
+            "ビルダーとビーバーを、一流のミームとコミュニティの雰囲気で祝う",
         },
         {
           title: "透明",
-          description: "見たままを伝える。純粋なミームコイン、純粋なコミュニティ。",
+          description:
+            "見たままを伝える。純粋なミームコイン、純粋なコミュニティ。",
         },
       ],
     },
@@ -1513,6 +1617,12 @@ export const translations = {
             "NO! $DAM is NOT an investment, security, or financial product. $DAM is a community-driven meme token with no financial guarantees, promises, or expectations of returns. This is purely for entertainment and community participation. Expect to lose everything you put in.",
         },
         {
+          question: "What happens to creator rewards from Pump.fun?",
+          answer:
+            "Creator rewards generated from Pump.fun will be reinvested into the DamCoin ecosystem. These funds will support ongoing development of automation tools, community features, marketing initiatives, and platform improvements to benefit all community members.",
+        },
+        // </CHANGE>
+        {
           question: "What is the total supply of $DAM?", // Updated from $BEAVR to $DAM
           answer:
             "The total supply and tokenomics details are available in the Tokenomics section above. We maintain full transparency about token distribution.",
@@ -1542,7 +1652,8 @@ export const translations = {
     securityWarning: {
       title: "セキュリティ警告",
       subtitle: "暗号通貨で安全を保つ",
-      description: "公式アカウントからの発表とリンクのみを信頼してください。詐欺師やなりすましから身を守りましょう。",
+      description:
+        "公式アカウントからの発表とリンクのみを信頼してください。詐欺師やなりすましから身を守りましょう。",
       warningTitle: "詐欺師に注意！",
       warningDescription:
         "人々は、偽のアカウント、ウェブサイト、またはトークンを使用してDamCoinになりすまそうとするかもしれません。常に以下の公式チャンネルを通じて確認してください。", // Updated from BeaverAI to DamCoin
@@ -1567,7 +1678,8 @@ export const translations = {
       title: "AI建设者",
       titleHighlight: "模因革命",
       tagline: "聪明工作。ダムハードに構築。🦫",
-      description: "DamCoin ($DAM)是一个由模因驱动的AI自动化代币，庆祝建设者精神。在AI思考的世界中，DamCoin构建系统。", // Updated from BeaverAI to DamCoin
+      description:
+        "DamCoin ($DAM)是一个由模因驱动的AI自动化代币，庆祝建设者精神。在AI思考的世界中，DamCoin构建系统。", // Updated from BeaverAI to DamCoin
       buyButton: "在PUMP.FUN购买",
       joinButton: "加入社区",
       stats: {
@@ -1615,24 +1727,40 @@ export const translations = {
         {
           phase: "第1阶段",
           title: "基础",
-          items: ["在Pump.fun上启动代币", "社区建设", "模因创作和病毒内容", "建立核心社区"],
+          items: [
+            "在Pump.fun上启动代币",
+            "社区建设",
+            "模因创作和病毒内容",
+            "建立核心社区",
+          ],
         },
         {
           phase: "第2阶段",
           title: "增长",
-          items: ["Raydium DEX上市", "社区合作伙伴关系", "持有者里程碑和庆祝活动", "扩大社交影响力"],
+          items: [
+            "Raydium DEX上市",
+            "社区合作伙伴关系",
+            "持有者里程碑和庆祝活动",
+            "扩大社交影响力",
+          ],
         },
         {
           phase: "第3阶段",
           title: "扩展",
-          items: ["主要DEX上市", "社区驱动的倡议", "模因竞赛和活动", "长期社区建设"],
+          items: [
+            "主要DEX上市",
+            "社区驱动的倡议",
+            "模因竞赛和活动",
+            "长期社区建设",
+          ],
         },
       ],
     },
     community: {
       title: "加入大坝",
       subtitle: "成为建设者革命的一部分",
-      description: "与成千上万的建设者、创作者和模因爱好者联系。我们一起构建AI驱动自动化的未来。",
+      description:
+        "与成千上万的建设者、创作者和模因爱好者联系。我们一起构建AI驱动自动化的未来。",
       joinButton: "加入TELEGRAM",
       followButton: "在X上关注",
     },
@@ -1661,7 +1789,8 @@ export const translations = {
     team: {
       title: "大坝建设者",
       subtitle: "认识团队",
-      description: "一群匿名建设者、开发者和模因领主，团结在一个愿景下：创建终极AI建设者代币。",
+      description:
+        "一群匿名建设者、开发者和模因领主，团结在一个愿景下：创建终极AI建设者代币。",
     },
     faq: {
       title: "常见问题",
@@ -1687,6 +1816,12 @@ export const translations = {
           answer:
             "NO! $DAM is NOT an investment, security, or financial product. $DAM is a community-driven meme token with no financial guarantees, promises, or expectations of returns. This is purely for entertainment and community participation. Expect to lose everything you put in.",
         },
+        {
+          question: "What happens to creator rewards from Pump.fun?",
+          answer:
+            "Creator rewards generated from Pump.fun will be reinvested into the DamCoin ecosystem. These funds will support ongoing development of automation tools, community features, marketing initiatives, and platform improvements to benefit all community members.",
+        },
+        // </CHANGE>
         {
           question: "What is the total supply of $DAM?", // Updated from $BEAVR to $DAM
           answer:
@@ -1717,13 +1852,15 @@ export const translations = {
     securityWarning: {
       title: "安全警告",
       subtitle: "在加密货币中保持安全",
-      description: "仅信任来自我们官方账户的公告和链接。保护自己免受诈骗和冒充者的侵害。",
+      description:
+        "仅信任来自我们官方账户的公告和链接。保护自己免受诈骗和冒充者的侵害。",
       warningTitle: "小心诈骗者！",
-      warningDescription: "人们可能会尝试使用虚假账户、网站或代币冒充DamCoin。始终通过以下官方渠道进行验证。", // Updated from BeaverAI to DamCoin
+      warningDescription:
+        "人们可能会尝试使用虚假账户、网站或代币冒充DamCoin。始终通过以下官方渠道进行验证。", // Updated from BeaverAI to DamCoin
       officialAccounts: "仅官方账户：",
       telegram: "Telegram",
       twitter: "X（Twitter）",
       understand: "我明白了，继续",
     },
   },
-}
+};

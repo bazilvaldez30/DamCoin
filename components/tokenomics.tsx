@@ -150,6 +150,17 @@ export function Tokenomics() {
                   Fair launch on Pump.fun - No team allocation, no presale, 100%
                   community-owned
                 </p>
+                <div className='mt-6 p-4 rounded-lg bg-primary/10 border border-primary/20'>
+                  <p className='text-sm text-foreground leading-relaxed'>
+                    <span className='font-semibold text-primary'>
+                      💡 Creator Rewards:
+                    </span>{" "}
+                    Funds from creator rewards on Pump.fun will be used to
+                    continue development of the DamCoin ecosystem, including
+                    building automation tools, community features, and ongoing
+                    platform improvements.
+                  </p>
+                </div>
               </motion.div>
             </div>
           </Card>
