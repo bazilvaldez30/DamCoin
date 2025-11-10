@@ -149,7 +149,7 @@ export function Community() {
               </p>
               <div className='flex flex-col sm:flex-row gap-5 justify-center'>
                 <Link
-                  href='https://pump.fun/coin/'
+                  href='https://pump.fun/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -259,7 +259,7 @@ export function Community() {
                 </li>
                 <li>
                   <a
-                    href='https://pump.fun/coin/'
+                    href='https://pump.fun/'
                     className='text-muted-foreground hover:text-primary transition-colors'
                   >
                     Buy $DAM
