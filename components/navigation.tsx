@@ -90,7 +90,7 @@ export function Navigation() {
           <div className='flex items-center gap-3'>
             <LanguageSelector />
             <Link
-              href='https://pump.fun/coin/4GvJERkrSP3vgSsJFN79E2Lg8KAUvgdUoPViDZwGpump'
+              href='https://pump.fun/coin/'
               target='_blank'
               rel='noopener noreferrer'
             >
